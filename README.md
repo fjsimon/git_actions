@@ -34,7 +34,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [ ] :coffee: Break
 - [ ] GitHub Actions
 - [ ] Types of Actions
-- [ ] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
+- [X] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
 - [ ] Typescript and composite actions
 - [ ] Sharing and releasing actions
 - [ ] Using the GitHub API and Octokit
@@ -46,12 +46,12 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [ ] Permissions for GitHub Token
 - [ ] Environments and Secrets
 - [ ] Staged deployments with environments, approvals, and deployment gates
-- [ ] 🔨 Hands-on: [Staged deployments](hol/03-Staged-deployments.md)
+- [X] 🔨 Hands-on: [Staged deployments](hol/03-Staged-deployments.md)
 - [ ] :coffee: Break
 - [ ] Action policies
 - [ ] Running your workflows
 - [ ] Sharing workflows
-- [ ] 🔨 Hands-on: [Reusable workflows](hol/04-Reusable-workflows.md)
+- [X] 🔨 Hands-on: [Reusable workflows](hol/04-Reusable-workflows.md)
 - [ ] Best practices and security
 
 
