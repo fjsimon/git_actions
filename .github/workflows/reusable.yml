@@ -11,14 +11,21 @@ on:
       current-time:
         description: 'The time when greeting.'
         value: ${{ jobs.reusable-job.outputs.current-time }}
+      current-color:
+        description: 'The color when greeting.'
+        value: ${{ jobs.reusable-job.outputs.current-color }}
 jobs:
   reusable-job:
     runs-on: ubuntu-latest
     outputs:
         current-time: ${{ steps.time.outputs.time }}
+        current-color: ${{ steps.color.outputs.color }}
     steps:
       - name: Greet someone
         run: echo "Hello ${{ inputs.who-to-greet }}"
       - name: Set time
         id: time
         run: echo "time=$(date)" >> $GITHUB_OUTPUT
+      - name: Set color
+        id: color
+        run: echo "color=green" >> $GITHUB_OUTPUT
